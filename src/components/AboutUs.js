@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutUs = () => {
     return (
-        <div className="about-us-section">
+        <section className="about-us-section">
             <h2>About Us</h2>
             <p>
                 At FetchFolk, we believe in making the world a smaller, more connected place. Founded on the principles of collaboration and trust, FetchFolk is an innovative platform that bridges the gap between global travelers and individuals or businesses in need of hard-to-find goods from abroad.
@@ -16,7 +16,7 @@ const AboutUs = () => {
             </p>
             <h3>Why We Exist</h3>
             <p>
-                We saw a need for a platform that eliminates the high costs and complexities of international shipping while making the most of the countless travel journeys happening daily. Whether it’s a unique product, a specialty item, or a last-minute request, FetchFolk is here to make it possible.
+                We identified a need for a platform that eliminates the high costs and complexities of international shipping while maximizing the countless travel journeys happening daily. Whether it’s a unique product, a specialty item, or a last-minute request, FetchFolk is here to make it possible.
             </p>
             <h3>What We Do</h3>
             <ul>
@@ -35,10 +35,13 @@ const AboutUs = () => {
             </p>
             <h3>Join Us</h3>
             <p>
-                Join FetchFolk today and be a part of a movement that transcends borders, fosters collaboration, and makes the world a more connected place—one delivery at a time.
+                Join FetchFolk today and be part of a movement that transcends borders, fosters collaboration, and makes the world a more connected place—one delivery at a time.
             </p>
-        </div>
+        </section>
     );
+};
+
+export default AboutUs;
 };
 
 export default AboutUs;
