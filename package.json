@@ -1,3 +1,41 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:06acb9a1c97d582643c951fe0baeaa85aca0fffcc155747f906cb644741b57cd
-size 1079
+{
+    "name": "fetchfolk",
+    "version": "1.0.0",
+    "private": true,
+    "dependencies": {
+        "animate.css": "^4.1.1",
+        "bootstrap": "^5.3.3",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-router-dom": "^5.3.4",
+        "react-scripts": "^3.0.1"
+    },
+    "devDependencies": {
+        "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+        "cross-env": "^7.0.3"
+    },
+    "scripts": {
+        "start": "cross-env BROWSER=msedge react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}
