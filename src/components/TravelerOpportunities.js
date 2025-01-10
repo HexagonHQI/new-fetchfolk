@@ -4,7 +4,7 @@ const TravelerOpportunities = () => {
     return (
         <div>
             <h2>Traveler Opportunities</h2>
-            {/* List opportunities here */}
+            {/* List opportunities  */}
         </div>
     );
 };
