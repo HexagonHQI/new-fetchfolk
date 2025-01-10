@@ -8,7 +8,7 @@ const ResearchCategory = ({ type }) => {
                 Here you can find all the relevant information and options for {type}. 
                 This section will help you connect with others based on your needs.
             </p>
-            {/* Add functionality to display relevant items or travelers/requesters */}
+            {/* functionality to display items or travelers/requesters */}
         </div>
     );
 };
