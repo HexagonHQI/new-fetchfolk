@@ -7,8 +7,8 @@ import AboutUs from './components/AboutUs';
 import Travelers from './components/Travelers';
 import Requesters from './components/Requesters';
 import ResearchCategory from './components/ResearchCategory';
-import TravelerOptions from './components/TravelerOptions'; // Import the TravelerOptions component
-import RequesterOptions from './components/RequesterOptions'; // Import the RequesterOptions component
+import TravelerOptions from './components/TravelerOptions'; 
+import RequesterOptions from './components/RequesterOptions'; 
 import './styles.css';
 
 import homeVideo from './assets/home-background.mp4';
